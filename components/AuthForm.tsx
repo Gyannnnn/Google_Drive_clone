@@ -1,7 +1,4 @@
-import React from 'react'
-
-export default function AuthForm() {
-  return (
-    <div>AuthForm</div>
-  )
+type FormType = "sign-in" | "sign-up";
+export default function AuthForm({ type }: { type: FormType }) {
+  return <div>AuthForm</div>;
 }
